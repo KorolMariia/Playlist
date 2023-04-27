@@ -1,5 +1,5 @@
 # Playlist ReactJS
-[Demo](https://playlist-kohl-seven.vercel.app/)
+[Demo](https://playlist-blue.vercel.app/)
 
 
 ## This project was bootstrapped with Create React App.
