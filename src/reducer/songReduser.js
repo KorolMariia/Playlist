@@ -11,6 +11,7 @@ const initialState = {
     songs: [],
     name: ''
 }
+
 export const songReducer = (initialState, action) => {
     switch (action.type) {
         case FETCH_SONG:

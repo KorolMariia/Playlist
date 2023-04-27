@@ -15,7 +15,7 @@ export default function App() {
         getData().then(data => {
             dispatch({
                 type: FETCH_SONG,
-                payload: data.data,
+                payload: data,
             });
         });
     }, [dispatch]);

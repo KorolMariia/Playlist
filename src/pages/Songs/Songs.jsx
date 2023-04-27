@@ -12,7 +12,6 @@ import { SongContextComponent } from "../../context/Context";
 
 export default function Songs() {
   const [{ songs },] = useContext(SongContextComponent);
-
   return (
     <>
       <LoginHeader />
