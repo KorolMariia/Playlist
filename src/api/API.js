@@ -2,12 +2,12 @@ import axios from "axios";
 
 
 const baseSongConfig = axios.create({
-    baseURL: 'http://localhost:4000',
+    baseURL: 'https://playlist-api-blond.vercel.app',
 });
 
 export default async function getData() {
-    const res = await baseSongConfig.get('/songs');
-    return res.data;
+    const { data } = await baseSongConfig.get('/songs');
+    return data.songs;
 };
 
 
