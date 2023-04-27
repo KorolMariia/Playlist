@@ -43,24 +43,16 @@ input[type="checkbox"] {
 
 .selector {
   margin: 10px;
-  margin-left: 160px;
   width: 150px;
   background-color: ivory;
   height: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 5px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 
   &-item {
-    position: relative;
-    flex-basis: calc(70% / 3);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     &_radio {
       appearance: none;
       display: none;
@@ -73,7 +65,7 @@ input[type="checkbox"] {
     }
 
     &_label {
-      position: relative;
+      padding: 5px;
       height: 60%;
       width: 100%;
       text-align: center;
