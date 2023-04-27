@@ -1,0 +1,21 @@
+$primary: navy;
+
+.btn {
+  background: #fff;
+  padding: 5px;
+  width: 150px;
+  height: 35px;
+  border: 1px solid $primary;
+  margin-top: 25px;
+  cursor: pointer;
+  box-shadow: 0 50px $primary inset;
+  color: #fff;
+
+  &:hover {
+    box-shadow: 0 0 $primary inset;
+    color: $primary;
+  }
+  &:focus {
+    outline: none;
+  }
+}

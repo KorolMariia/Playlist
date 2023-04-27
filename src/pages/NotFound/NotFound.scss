@@ -1,0 +1,21 @@
+$primary: navy;
+
+.wrapper-notfound {
+  top: -100px;
+  max-width: 400px;
+  padding: 20px 40px;
+  background: #fff;
+  height: 300px;
+  margin: auto;
+  display: block;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 500;
+  border: 1px solid #eee;
+}
+
+.err {
+  font-size: 30px;
+  color: $primary;
+  font-family: "Dancing Script", cursive;
+}

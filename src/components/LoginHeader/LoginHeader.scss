@@ -1,0 +1,19 @@
+.login-header 
+{  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  .name-wrapper {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(141, 185, 230);
+    color: navy;
+    border-radius: 5px;
+    font-weight: bold;
+
+    h3 {
+      margin: 6px auto;
+      width: 120px;
+    }
+  }
+}
